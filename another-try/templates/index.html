@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Diagnosis</title>
+</head>
+<body>
+    <div><h1>Heart Diesease Diagonsis </h1></div>
+    <div> 
+        <form action ="/diagnose" method= "post">
+            <input type="number" name="age" required>
+            <br>
+
+            <label for="trestbps">Resting Blood Pressure: </label>
+            <input type="number" name="trestbps" required>
+            <br>
+
+            <!-- we could add more input field for other features... -->
+
+            <input type="submit" value="Diagnose">
+
+        </form>
+    </div>
+    
+</body>
+</html>
+
